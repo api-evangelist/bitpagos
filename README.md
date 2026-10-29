@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bitpagos is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/bitpagos
+Bitpagos is a payment gateway based in Buenos Aires, Argentina, focused on merchants in Latin America. It processes credit cards and Bitcoin, aiming to reduce international transaction fees for small and medium businesses. Founded as Ripio, the company rebranded to Bitpagos and offers APIs for payment processing, refunds, and transaction reporting, targeting fintech integrations across the region.
+
+**Areas:** Payments · Fintech · Latin America · Bitcoin · Credit Cards
+
+## Bitpagos on APIs.io
+
+Everything profiled for Bitpagos is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bitpagos/](https://apis.io/providers/bitpagos/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Bitpagos API](https://apis.io/apis/bitpagos/bitpagos-api-2/) — Payment processing API for merchants, supporting credit cards and Bitcoin.
+- [Bitpagos Bitpagos API](https://apis.io/apis/bitpagos/bitpagos-bitpagos-api-api/) — The Bitpagos API API from Bitpagos — 1 operation(s) for bitpagos api.
+- [Bitpagos Customers API](https://apis.io/apis/bitpagos/bitpagos-customers-api/) — The Customers API from Bitpagos — 10 operation(s) for customers.
+- [Bitpagos Offramp API](https://apis.io/apis/bitpagos/bitpagos-offramp-api/) — The Offramp API from Bitpagos — 1 operation(s) for offramp.
+- [Bitpagos Quotes API](https://apis.io/apis/bitpagos/bitpagos-quotes-api/) — The Quotes API from Bitpagos — 1 operation(s) for quotes.
+- [Bitpagos Rates API](https://apis.io/apis/bitpagos/bitpagos-rates-api/) — The Rates API from Bitpagos — 1 operation(s) for rates.
+- [Bitpagos Resources API](https://apis.io/apis/bitpagos/bitpagos-resources-api/) — The Resources API from Bitpagos — 1 operation(s) for resources.
+- [Bitpagos Trade API](https://apis.io/apis/bitpagos/bitpagos-trade-api/) — The Trade API from Bitpagos — 1 operation(s) for trade.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Bitpagos Webhooks](https://apis.io/asyncapis/bitpagos/bitpagos-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostApiV1CustomersCustomeridKycOtpValidateResponse](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-customers-customerid-kyc-otp-validate-response/)
+- [PostApiV1CustomersCustomeridKycStartResponse](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-customers-customerid-kyc-start-response/)
+- [PostApiV1CustomersRequest](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-customers-request/)
+- [PostApiV1CustomersResponse](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-customers-response/)
+- [PostApiV1QuotesRequest](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-quotes-request/)
+- [PostApiV1QuotesResponse](https://apis.io/schemas/bitpagos/bitpagos-post-api-v1-quotes-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bitpagos Context](https://apis.io/jsonld/bitpagos/bitpagos-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Bitpagos API Rules](https://apis.io/rules/bitpagos/bitpagos-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bitpagos Authentication](https://apis.io/security/bitpagos/bitpagos-authentication/)
+- [Bitpagos Domain Security](https://apis.io/security/bitpagos/bitpagos-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ripio.com)
+- [Documentation](https://apidocs.ripio.com/)
+- [API reference](https://docs.ripio.com/llms.txt)
+- [Support](https://help.ripio.com/)
+- [Blog](https://launchpad.ripio.com/blog)
+- [Terms of service](http://terms.ripio.com/)
+- [GitHub](https://github.com/ripio)
+- [Status](https://status.ripio.com/)
+
+## API Evangelist rating
+
+**Kin Score 34.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 33.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 26.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bitpagos/](https://apis.io/providers/bitpagos/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bitpagos: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bitpagos/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
